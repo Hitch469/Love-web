@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>To My Beautiful Wife — Forever &amp; Always</title>
+<meta name="description" content="A love story, told one page at a time.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+
+<div id="cursor-layer" aria-hidden="true"></div>
+
+
+<div id="fx-layer" aria-hidden="true"></div>
+
+
+<a class="skip-link" href="#app">Skip to content</a>
+
+
+<main id="app" aria-live="off"></main>
+
+
+<nav id="page-dots" aria-label="Page navigation"></nav>
+
+
+<div id="love-counter" class="widget" role="status" aria-label="Time together counter">
+  <div class="widget-title">❤ Хамт байсан өдрүүд</div>
+  <div class="counter-grid">
+    <div class="counter-cell"><span id="c-years">0</span><label>years</label></div>
+    <div class="counter-cell"><span id="c-months">0</span><label>months</label></div>
+    <div class="counter-cell"><span id="c-days">0</span><label>days</label></div>
+    <div class="counter-cell"><span id="c-hours">00</span><label>hrs</label></div>
+    <div class="counter-cell"><span id="c-mins">00</span><label>min</label></div>
+    <div class="counter-cell"><span id="c-secs">00</span><label>sec</label></div>
+  </div>
+</div>
+
+
+<div id="love-meter" class="widget" aria-label="Our love, one hundred percent">
+  <svg viewBox="0 0 100 90" class="meter-heart">
+    <path d="M50 85 C10 55 0 30 18 15 C32 3 46 10 50 25 C54 10 68 3 82 15 C100 30 90 55 50 85 Z"/>
+  </svg>
+  <div class="meter-label">Бидний хайр</div>
+  <div class="meter-value">100%</div>
+</div>
+
+
+<div id="music-player" class="widget">
+  <button id="music-toggle" aria-label="Play music" class="music-btn">
+    <svg id="icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+    <svg id="icon-pause" viewBox="0 0 24 24" hidden><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+  </button>
+  <button id="prev-track" aria-label="Previous song" class="music-btn small">
+    <svg viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6 8.5 6V6z"/></svg>
+  </button>
+  <div class="music-info" id="track-name">Our Song</div>
+  <button id="next-track" aria-label="Next song" class="music-btn small">
+    <svg viewBox="0 0 24 24"><path d="M16 6h2v12h-2zM6 6l8.5 6L6 18z"/></svg>
+  </button>
+  <button id="mute-toggle" aria-label="Mute" class="music-btn small">
+    <svg id="icon-vol" viewBox="0 0 24 24"><path d="M3 10v4h4l5 5V5L7 10H3z"/></svg>
+    <svg id="icon-mute" viewBox="0 0 24 24" hidden><path d="M3 10v4h4l5 5V5L7 10H3zm13.5 2L19 9.5l-1.4-1.4L15.1 10.6 12.6 8.1 11.2 9.5l2.5 2.5-2.5 2.5 1.4 1.4 2.5-2.5 2.5 2.5 1.4-1.4z"/></svg>
+  </button>
+  <input id="volume" type="range" min="0" max="1" step="0.01" value="0.5" aria-label="Volume">
+
+  <audio id="bg-audio" loop preload="none">
+ 
+  <source src="Yiruma.mp3.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+
+<div id="surprise-overlay" aria-hidden="true"><span id="surprise-text"></span></div>
+
+
+<div id="hidden-message-overlay" aria-hidden="true">
+  <div class="hidden-message-box">
+    <p id="hidden-message-text">Миний хайр дуусашгүй</p>
+    <button id="close-hidden" aria-label="Close">Close</button>
+  </div>
+</div>
+
+
+<div id="lightbox" aria-hidden="true">
+  <button id="lightbox-close" aria-label="Close photo">✕</button>
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
