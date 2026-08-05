@@ -144,7 +144,7 @@ Love-web/
 Clone the repository
 
 ```bash
-git clone https://github.com/Hitch469/Love-web
+https://github.com/Hitch469/Love-web
 ```
 
 
