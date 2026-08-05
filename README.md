@@ -188,23 +188,6 @@ Designed to work on:
 
 ---
 
-# 📚 What I Learned
-
-Building this project allowed me to strengthen my skills in:
-
-- HTML Structure
-- Responsive Layouts
-- CSS Animations
-- JavaScript Programming
-- DOM Manipulation
-- Event Listeners
-- Audio Integration
-- Interactive User Experience
-- Performance Optimization
-- Creative Frontend Development
-
----
-
 # 🎯 Future Improvements
 
 - Dark Mode
@@ -254,7 +237,6 @@ https://github.com/Hitch469/Love-web
 
 # 📄 License
 
-This project is intended for personal and educational purposes.
 
 Feel free to explore the code, learn from it, and create your own unique version.
 
