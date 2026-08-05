@@ -144,14 +144,9 @@ Love-web/
 Clone the repository
 
 ```bash
-git clone https://github.com/Hitch469/Love-web.git
+git clone https://github.com/Hitch469/Love-web
 ```
 
-Open the project folder
-
-```bash
-cd Love-web
-```
 
 Run the website by opening
 
