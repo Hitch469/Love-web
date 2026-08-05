@@ -81,7 +81,6 @@ Displays how long you've been together in real time.
 - Secret love messages
 - Random romantic quotes
 - Hidden interactions
-- Easter eggs
 
 ---
 
